@@ -49,9 +49,9 @@ if ( answer5.toUpperCase() === 'JAVASCRIPT' ) {
 */
 if (score === 5) {
   rank = "Gold";
-} else if (score >= 3 && score >= 4) {
+} else if (score >= 3 && score <= 4) {
   rank = "Silver";
-} else if (score >= 1 && score >= 2 ) {
+} else if (score >= 1 && score <= 2 ) {
   rank = "Bronze"
 } else {
   rank = "No crown for you"
